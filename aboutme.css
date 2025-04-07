@@ -1,0 +1,191 @@
+@font-face {
+    font-family: 'JMH Typewriter';
+    src: url('fonts/JMH\ Typewriter-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'fatkat';
+    src: url(fonts/Fat\ Kat\ -\ \(Demo\)\ hanscostudio.com\ \(1\).ttf);
+}
+
+@font-face {
+    font-family: 'extradays';
+    src: url(fonts/Extra\ Days.ttf);
+}
+
+body {
+    width: 100%;
+    background-color: rgb(119, 119, 119);
+    margin: 0px;
+    padding: 0px;
+}
+
+#hometitle {
+    background-color: rgb(205, 205, 205);
+    width: 100%;
+    height: 160px;
+    top: 0;
+    margin: 0 ;
+}
+
+#hometitle img {
+    width: 350px;
+    margin: auto;
+    margin-top: 7px;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: auto;
+    border-radius: none;
+    background-color: transparent;
+}
+
+.navlinks {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    color: rgb(195, 195, 195);    
+    font-size: 18px;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(124, 0, 0);
+    z-index: 1000;
+    margin: 0;
+}
+
+.navlinks button {
+    background-color: rgb(195, 195, 195);
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: rgb(119, 119, 119);
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: 'JMH Typewriter';
+
+}
+
+.navlinks button:hover {
+    background-color: rgb(72, 1, 1);
+    color: rgb(181, 181, 181);
+}
+
+.grid2 {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 150px auto 50px auto 150px;
+    grid-template-rows: auto;
+    background-color: #B62025;
+    justify-content: space-evenly;
+    align-content: space-around;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+    padding: 0%;
+
+}
+
+.abtme p {
+    width: 400px;
+    height: fit-content;
+    object-fit: cover;
+    margin-left: 50px;
+    grid-column-start: 2;
+    font-size: 20px;
+    background-color: rgb(124, 0, 0);
+    color: rgb(195, 195, 195);
+    padding: 30px;
+    margin-left: 150px;
+    border-radius: 20px;
+    font-family: 'JMH Typewriter';
+    text-align: center;
+    filter: drop-shadow(10px 10px 0px rgba(0, 0, 0, 0.5));
+
+}
+
+.abtme img {
+    filter: drop-shadow(10px 10px 0px rgba(0, 0, 0, 0.5));
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    position: relative;
+    right: -500px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: rgb(195, 195, 195);
+    font-size: 30px;
+    color: rgb(124, 0, 0);
+    height: auto;
+    margin: 0px;
+}
+
+.footer button {
+    background-color: rgb(124, 0, 0);
+    color: rgb(195, 195, 195);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'JMH Typewriter';
+    height: 50px;
+
+}
+
+.footer button:hover {
+    background-color: rgb(181, 181, 181);
+    color: rgb(124, 0, 0);
+}
+
+#bottom {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(124, 0, 0);
+    padding: 10px;
+    height: 300px;
+
+}
+
+#bottom img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+
+}
+#blacktape img{
+    position: absolute;
+    left: 425px;
+    top: 420px;
+}
+#tape2 img{
+    position: absolute;
+    right: 300px;
+    top: 330px;
+    rotate: 80deg;
+    width: 140px;
+
+}
+#tape3 img{
+    position: absolute;
+    right: 670px;
+    top: 720px;
+    rotate: 80deg;
+    width: 140px;
+}

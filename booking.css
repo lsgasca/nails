@@ -1,0 +1,246 @@
+@font-face {
+    font-family: 'JMH Typewriter';
+    src: url('fonts/JMH\ Typewriter-Bold.ttf');
+}
+@font-face {
+    font-family: 'fatkat';
+    src: url(fonts/Fat\ Kat\ -\ \(Demo\)\ hanscostudio.com\ \(1\).ttf);
+}
+@font-face {
+    font-family: 'extradays';
+    src: url(fonts/Extra\ Days.ttf);
+}
+img {
+    width: 200px;
+    height: auto;
+}
+h1{
+    font-family: 'extradays';
+    font-size: 40px;
+    color: rgb(124, 0, 0);
+}
+p{
+    font-family: 'JMH Typewriter';
+}
+
+body{
+    width: 100%;
+    background-color: rgb(59, 59, 59);
+}
+#hometitle {
+    background-color: rgb(205, 205, 205);
+    width: 100%;
+    height: 160px;
+    top: 0;
+}
+
+#hometitle img {
+    width:350px;
+    margin: auto;
+    margin-top: 7px;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: auto;
+    border-radius: none;
+    background-color: transparent;
+}
+
+.navlinks {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    color: rgb(195, 195, 195);
+    margin-top: 0;
+    font-size: 18px;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(124, 0, 0);
+    z-index: 1000;
+}
+
+.navlinks button {
+    background-color: rgb(195, 195, 195);
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: rgb(119, 119, 119);
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: 'JMH Typewriter';
+
+}
+
+.navlinks button:hover {
+    background-color: rgb(72, 1, 1);
+    color: rgb(181, 181, 181);
+}
+
+.grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    background-color: #B62025;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    
+}
+
+.grid button {
+    padding: 10px;
+    background-color: rgb(124, 0, 0);
+    border: none;
+    border-radius: 40px;
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(195, 195, 195);
+    justify-content: space-evenly;
+    align-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-family: 'JMH Typewriter';
+}
+
+.grid img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    margin: 20px;
+    padding: auto;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    filter: drop-shadow(10px 10px 0px rgba(0, 0, 0, 0.5));
+    border-radius: 20px;
+
+}
+
+.img1 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-left: -50px;
+    filter: drop-shadow(10px 10px 0px rgba(0, 0, 0, 0.5));
+
+}
+
+.service1 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: rgb(195, 195, 195);
+    height: fit-content;
+    font-size: 20px;
+    margin: 20px;
+    margin-top: 70px;
+    filter: drop-shadow(10px 10px 0px black);
+    border-radius: 20px;    
+    padding: 20px;
+    text-align: center;
+    filter: drop-shadow(10px 10px 0px rgba(0, 0, 0, 0.5));
+
+
+}
+
+.img2 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-right: -50px;
+    filter: drop-shadow(10px 10px 0px rgba(0, 0, 0, 0.5));
+
+}
+
+.service2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: rgb(195, 195, 195);
+    height: fit-content;
+    font-size: 20px;
+    margin: 20px;
+    margin-top: 70px;
+    filter: drop-shadow(10px 10px 0px black);
+    border-radius: 20px;    
+    padding: 20px;
+    text-align: center;
+    filter: drop-shadow(10px 10px 0px rgba(0, 0, 0, 0.5));
+
+}
+
+.img3 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin-left: -50px;
+    filter: drop-shadow(10px 10px 0px rgba(0, 0, 0, 0.5));
+
+}
+
+.service3 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: rgb(195, 195, 195);
+    height: fit-content;
+    font-size: 20px;
+    margin: 20px;
+    margin-top: 70px;
+    filter: drop-shadow(10px 10px 0px black);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    filter: drop-shadow(10px 10px 0px rgba(0, 0, 0, 0.5));
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: rgb(195, 195, 195);
+    font-size: 30px;
+    color: rgb(124, 0, 0);
+    height: auto;
+    margin: 0px;
+}
+
+.footer button {
+    background-color: rgb(124, 0, 0);
+    color: rgb(195, 195, 195);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'JMH Typewriter';
+    height: 50px;
+
+}
+
+.footer button:hover {
+    background-color: rgb(181, 181, 181);
+    color: rgb(124, 0, 0);
+}
