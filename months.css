@@ -108,10 +108,8 @@ p {
     font-size: 30px;
     color: rgb(124, 0, 0);
     height: auto;
-    margin-bottom: -10px;
-    width: 100%;
-    padding-left: -50px;
-    z-index: 2;
+    margin-bottom: 0px;
+    margin-top: 20px;
 }
 
 .footer button {

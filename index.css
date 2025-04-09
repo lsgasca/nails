@@ -39,8 +39,14 @@ h2 {
 }
 
 h3 {
-    font-size: 20px;
-}
+    font-size: 30px;
+    margin-top: 30px;
+    font-family: 'jmh typewriter';
+    font-weight: bold;
+    color: rgb(49, 0, 0);
+    -webkit-text-stroke: .5px rgb(164, 164, 164);
+    letter-spacing: 5px;
+    text-align: center;}
 
 body {
     background-color: rgb(124, 0, 0);
@@ -108,12 +114,15 @@ body {
 
 #cover img {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: 1fr;
     grid-template-rows: auto;
     object-fit: cover;
-    grid-column: 1 / 12;
-    height: 500px;
+    object-position: bottom;
+    grid-column: 1;
+    height: 700px;
+    width: 100%;
     margin: 0px;
+    padding: 0px;
     margin-top: 70px;
     border-radius: 0px;
     left: 0;
@@ -122,8 +131,8 @@ body {
 
 .grid {
     display: grid;
-    gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 150px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: auto;
     background-color: rgb(124, 0, 0);
     justify-content: space-evenly;
@@ -167,34 +176,35 @@ body {
 
 .img1 {
     grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
-    margin-left: -70px;
+    margin-left: auto;
+    margin-right: auto;
     filter: drop-shadow(10px 10px 0px rgba(0, 0, 0, 0.5));
-
 }
 
 .serv1header {
-    grid-column-start: 4;
-    grid-column-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
     margin-top: 0;
-    margin-right: -50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     z-index: 1;
-
-
 }
 
 .service1 {
-    grid-column-start: 4;
-    grid-column-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
     background-color: rgb(195, 195, 195);
     height: fit-content;
-    margin-right: -50px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: auto;
     margin-top: 85px;
     font-size: 20px;
@@ -202,125 +212,135 @@ body {
     border-radius: 10px;
     padding: 20px;
     padding-top: 30px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     text-align: center;
     filter: drop-shadow(10px 10px 0px rgba(0, 0, 0, 0.5));
 
 }
 .book1 {
-    grid-column-start: 4;
-    grid-column-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
-    margin-bottom: 130px;
-    margin-top: auto;
-    margin-left: 180px;
+    margin-top: 370px;
+    margin-left: auto;
+    margin-right: auto;
     z-index: 1;
+    text-align: center;
 
 }
 
 .img2 {
-    grid-column-start: 4;
-    grid-column-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 3;
-    margin-left: 100px;
+    margin: auto;
+    justify-self: center;
     filter: drop-shadow(10px 10px 0px rgba(0, 0, 0, 0.5));
-
 }
 
 .serv2header {
     grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
-    margin-top: 0px;
-    margin-left: -70px;
+    margin-top: -60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     z-index: 1;
 }
 
 .service2 {
     grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
     background-color: rgb(195, 195, 195);
     height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 85px;
     font-size: 20px;
+    align-items: center;
     border-radius: 10px;
     padding: 20px;
     padding-top: 30px;
-    padding-bottom: 100px;
-    margin-top: 150px;
-    margin-bottom: auto;
-    margin-left: -70px;
+    padding-bottom: 50px;
     text-align: center;
     filter: drop-shadow(10px 10px 0px rgba(0, 0, 0, 0.5));
 
 }
 .book2 {
     grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
-    margin-bottom: 60px;
-    margin-top: auto;
-    margin-left: 120px;
+    margin-top: 420px;
+    margin-left: auto;
+    margin-right: auto;
     z-index: 1;
+    text-align: center;
 
 }
 
 .img3 {
     grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;
-    margin-left: -70px;
+    margin-left: auto;
+    margin-right: auto;
     filter: drop-shadow(10px 10px 0px rgba(0, 0, 0, 0.5));
-
 }
 
 .serv3header {
     font-size: 50px;
-    grid-column-start: 4;
-    grid-column-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 4;
-    margin-top: 0px;
-    margin-right: -70px;
+    margin-top: -70px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     z-index: 1;
 
 }
 
 .service3 {
-    grid-column-start: 4;
-    grid-column-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 4;
     background-color: rgb(195, 195, 195);
     height: fit-content;
-    margin-right: -70px;
-    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: auto;
+    margin-top: 85px;
     font-size: 20px;
+    align-items: center;
     border-radius: 10px;
     padding: 20px;
-    padding-bottom: 100px;
     padding-top: 30px;
+    padding-bottom: 50px;
     text-align: center;
     filter: drop-shadow(10px 10px 0px rgba(0, 0, 0, 0.5));
 
 }
 .book3 {
-    grid-column-start: 4;
-    grid-column-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 4;
     grid-row-start: 3;
     grid-row-end: 4;
-    margin-bottom: 60px;
-    margin-top: auto;
-    margin-left: 190px;
+    margin-top: 390px;
+    margin-left: auto;
+    margin-right: auto;
     z-index: 1;
-
+    text-align: center;
 }
 
 .footer {
@@ -371,93 +391,3 @@ body {
     object-fit: cover;
 }
 
-#st {
-    position: absolute;
-    bottom: 150px;
-    right: 500px;
-    z-index: 1;
-    filter: none;
-    width: 50px;
-    height: auto;
-}
-
-#w {
-    position: absolute;
-    bottom: 150px;
-    right: 450px;
-    z-index: 1;
-    filter: none;
-    width: 50px;
-    height: auto;
-    rotate: 90deg;
-}
-
-#e {
-    position: absolute;
-    bottom: 150px;
-    right: 400px;
-    z-index: 1;
-    filter: none;
-    width: 50px;
-    height: auto;
-}
-
-#l {
-    position: absolute;
-    bottom: 150px;
-    right: 350px;
-    z-index: 1;
-    filter: none;
-    width: 50px;
-    height: auto;
-}
-
-#c {
-    position: absolute;
-    bottom: 150px;
-    right: 300px;
-    z-index: 1;
-    width: 50px;
-    height: auto;
-    filter: none;
-}
-
-#o {
-    position: absolute;
-    bottom: 150px;
-    right: 250px;
-    z-index: 1;
-    filter: none;
-    width: 50px;
-    height: auto;
-}
-
-#m {
-    position: absolute;
-    bottom: 150px;
-    right: 200px;
-    z-index: 1;
-    width: 50px;
-    height: auto;
-    filter: none;
-}
-
-#e2 {
-    position: absolute;
-    bottom: 150px;
-    right: 150px;
-    z-index: 1;
-    filter: none;
-    width: 50px;
-    height: auto;
-}
-
-#st1 {
-    position: absolute;
-    bottom: 150px;
-    right: 100px;
-    z-index: 1;
-    filter: none;
-    width: 50px;
-    height: auto;
-}

@@ -123,7 +123,7 @@ body {
     align-items: center;
     height: fit-content;
     width: 100%;
-    margin-top: 120px;
+    margin-top: 20px;
     margin-bottom: 100px;
     padding-top: 50px;
     background-color: transparent;
@@ -136,9 +136,9 @@ body {
 }
 
 .item img {
-    width: 400px;
+    width: 550px;
     /* Adjust as needed */
-    height: 400px;
+    height: 550px;
     /* Adjust as needed */
     object-fit: cover;
     filter: drop-shadow(10px 10px 0px rgba(0, 0, 0, 0.5));
@@ -181,6 +181,7 @@ body {
     margin-bottom: 0px;
     margin-top: 20px;
 }
+
 
 .footer button {
     background-color: rgb(124, 0, 0);

@@ -121,6 +121,103 @@ body {
     right: -500px;
 }
 
+body{ 
+    font-family: 'JMH Typewriter';
+    background-color: rgb(206, 206, 206);
+}
+
+.contact-container{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.contact-left-title h2{
+    font-family: 'JMH Typewriter';
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(124, 0, 0);
+    margin-bottom: 5px;
+}
+.contact-left-title hr{
+    width: 200px;
+    border: none;
+    height: 5px;
+    background-color: rgb(124, 0, 0);
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+.contact-inputs {
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(124, 0, 0);
+    border-radius: 50px;
+    font-family: 'jmh typewriter';
+
+}
+.contact-left textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.contact-inputs:focus{
+    border: 2px solid rgb(124, 0, 0);
+    transition: none;
+}
+.contact-inputs::placeholder{
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(124, 0, 0);
+    font-family: 'jmh typewriter';
+}
+.contact-left button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    width: 200px;
+    font-size: 20px;
+    gap: 10px;
+    color: rgb(206, 206, 206);
+    background-color: rgb(124, 0, 0);
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-family: 'JMH Typewriter';
+    padding: 15px 30px;
+}
+#bizcard img{
+    width: 500px;
+    height: 300px;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 .footer {
     display: flex;
     justify-content: space-evenly;
