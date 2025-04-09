@@ -39,7 +39,7 @@ h2 {
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 30px;
     font-family: 'jmh typewriter';
     font-weight: bold;
@@ -391,3 +391,117 @@ body {
     object-fit: cover;
 }
 
+@media (max-width: 1000px) {
+    .grid {
+        display: flex;
+        flex-direction: column;
+        justify-items: space-evenly;
+        align-items: center;
+        padding: 10px;
+        margin: 10px;
+        gap: 5px;
+    }
+    .grid img {
+        width: 500px;
+        height: 500px;
+        object-fit: cover;
+    }
+    #cover img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    .serv1header{
+        font-size: 20px;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        z-index: 1;
+    }
+    .serv2header{
+        font-size: 20px;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        z-index: 1;
+    }
+    .serv3header{
+        font-size: 20px;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        z-index: 1;
+    }
+    .book1 {
+        margin-top: -90px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+        z-index: 1;
+        text-align: center;
+        padding: 0px;
+    }
+    .book2 {
+        margin-top: -90px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+        z-index: 1;
+        text-align: center;
+        padding: 0px;
+    }
+    .book3 {
+        margin-top: -90px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+        z-index: 1;
+        text-align: center;
+        padding: 0px;
+    }
+    .service1 {
+        margin-top: -90px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .service2{
+        margin-top: -90px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .service3{
+        margin-top: -90px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .img1{
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding: 0px;
+    }
+    .img2{
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding: 0px;
+    }
+    .img3{
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding: 0px;
+    }
+}

@@ -266,23 +266,47 @@ body{
     object-fit: cover;
 
 }
-#blacktape img{
-    position: absolute;
-    left: 425px;
-    top: 420px;
-}
-#tape2 img{
-    position: absolute;
-    right: 300px;
-    top: 330px;
-    rotate: 80deg;
-    width: 140px;
-
-}
-#tape3 img{
-    position: absolute;
-    right: 670px;
-    top: 720px;
-    rotate: 80deg;
-    width: 140px;
+@media (max-width: 1000px) {
+    .grid2 {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        height: fit-content;
+    }
+    .abtme img {
+        width: 100%;
+        height: auto;
+        right: 0px;
+    }
+    .abtme p {
+        width: 90%;
+        margin-left: 0px;
+    }
+    #bottom img {
+        width: 2fr;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-items: space-evenly;
+    }
+    .contact-inputs {
+        width: 80vw;
+    }
+    .contact-container {
+        flex-direction: column;
+        height: fit-content;
+    }
+    .footer {
+        bottom: 0;
+    }
+   #bizcard img {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-right: 0px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    
 }

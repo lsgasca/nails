@@ -296,3 +296,18 @@ body {
     filter: brightness(0.5);
     /* Makes the image darker */
 }
+@media (max-width: 1000px) {
+    .grid {
+        display: flex;
+        flex-direction: column;
+        justify-items: space-evenly;
+        align-items: center;
+        padding: 20px;
+        margin-top: 50px;
+    }
+
+    .item img {
+        width: 600px;
+        height: auto;
+    }
+}

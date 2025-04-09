@@ -25,7 +25,7 @@ p{
 
 body{
     width: 100%;
-    background-color: rgb(59, 59, 59);
+    background-color: #B62025;
 }
 #hometitle {
     background-color: rgb(205, 205, 205);
@@ -243,4 +243,29 @@ body{
 .footer button:hover {
     background-color: rgb(181, 181, 181);
     color: rgb(124, 0, 0);
+}
+@media (max-width: 1000px) {
+    .grid {
+        display: flex;
+        flex-direction: column;
+        justify-items: space-evenly;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 0px;
+    }
+    .grid img {
+        width: 500px;
+        height: 500px;
+        object-fit: cover;
+        margin: 0px;
+        padding: 0px;
+        justify-content: space-evenly;
+        align-content: space-evenly;
+        filter: drop-shadow(10px 10px 0px rgba(0, 0, 0, 0.5));
+        border-radius: 20px;
+        margin-top: 50px;
+        margin-bottom: -50px;
+    }
+
 }
