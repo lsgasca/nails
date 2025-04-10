@@ -266,7 +266,7 @@ body{
     object-fit: cover;
 
 }
-@media (max-width: 1000px) {
+@media (max-width: 600px) {
     .grid2 {
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;

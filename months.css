@@ -517,7 +517,7 @@ div {
     height: auto;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 600px) {
     *{
         justify-content: center;
         align-items: center;
