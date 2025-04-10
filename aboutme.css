@@ -361,13 +361,9 @@ body{
         padding: 20px;
     }
     #bottom {
-        flex-direction: column;
-        height: auto;
-        padding: 20px;
+        display: none;
     }
     #bottom img {
-        width: 80%;
-        height: auto;
-        margin: 10px auto;
+       display: none;
     }
 }
