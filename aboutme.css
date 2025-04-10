@@ -25,7 +25,7 @@ body {
     width: 100%;
     height: 160px;
     top: 0;
-    margin: 0 ;
+    margin: 0;
 }
 
 #hometitle img {
@@ -48,7 +48,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     padding: 0;
-    color: rgb(195, 195, 195);    
+    color: rgb(195, 195, 195);
     font-size: 18px;
     top: 0;
     width: 100%;
@@ -121,12 +121,12 @@ body {
     right: -500px;
 }
 
-body{ 
+body {
     font-family: 'JMH Typewriter';
     background-color: rgb(206, 206, 206);
 }
 
-.contact-container{
+.contact-container {
     height: 60vh;
     display: flex;
     align-items: center;
@@ -138,21 +138,24 @@ body{
     margin-bottom: auto;
 
 }
-.contact-left{
+
+.contact-left {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
-.contact-left-title h2{
+
+.contact-left-title h2 {
     font-family: 'JMH Typewriter';
     font-size: 50px;
     font-weight: 600;
     color: rgb(124, 0, 0);
     margin-bottom: 5px;
 }
-.contact-left-title hr{
+
+.contact-left-title hr {
     width: 200px;
     border: none;
     height: 5px;
@@ -160,6 +163,7 @@ body{
     border-radius: 50px;
     margin-bottom: 20px;
 }
+
 .contact-inputs {
     width: 400px;
     height: 50px;
@@ -173,24 +177,28 @@ body{
     font-family: 'jmh typewriter';
 
 }
-.contact-left textarea{
+
+.contact-left textarea {
     height: 140px;
     padding-top: 15px;
     border-radius: 50px;
     font-weight: 500;
     font-size: 20px;
 }
-.contact-inputs:focus{
+
+.contact-inputs:focus {
     border: 2px solid rgb(124, 0, 0);
     transition: none;
 }
-.contact-inputs::placeholder{
+
+.contact-inputs::placeholder {
     font-weight: 500;
     font-size: 20px;
     color: rgb(124, 0, 0);
     font-family: 'jmh typewriter';
 }
-.contact-left button{
+
+.contact-left button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -206,7 +214,8 @@ body{
     font-family: 'JMH Typewriter';
     padding: 15px 30px;
 }
-#bizcard img{
+
+#bizcard img {
     width: 500px;
     height: 300px;
     object-fit: contain;
@@ -266,21 +275,25 @@ body{
     object-fit: cover;
 
 }
+
 @media (max-width: 1000px) {
     .grid2 {
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
         height: fit-content;
     }
+
     .abtme img {
         width: 100%;
         height: auto;
         right: 0px;
     }
+
     .abtme p {
         width: 90%;
         margin-left: 0px;
     }
+
     #bottom img {
         width: 2fr;
         height: auto;
@@ -288,17 +301,21 @@ body{
         flex-direction: row;
         justify-items: space-evenly;
     }
+
     .contact-inputs {
         width: 80vw;
     }
+
     .contact-container {
         flex-direction: column;
         height: fit-content;
     }
+
     .footer {
         bottom: 0;
     }
-   #bizcard img {
+
+    #bizcard img {
         width: 100%;
         height: auto;
         display: flex;
@@ -308,64 +325,106 @@ body{
         margin-top: auto;
         margin-bottom: auto;
     }
-    
+
 }
+
 @media (max-width: 600px) {
     body {
-        font-size: 14px;
+        width: 100%;
+        max-width: 100%;
+        margin: 0px;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .grid2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .grid img {
+        width: 100%;
+        max-width: 100%;
+        height: square;
+        object-position: center;
+        object-fit: cover;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        justify-content: space-evenly;
     }
     .navlinks {
-        flex-direction: column;
+        display: flex;
+        flex-direction: row;
         height: auto;
+        align-items: center;
+        gap: 10px;
     }
     .navlinks button {
         width: 100%;
-        margin-bottom: 10px;
+        margin-top: 10px;
     }
-    .grid2 {
-        grid-template-columns: 1fr;
-        gap: 10px;
-        height: fit-content;
-    }
+
     .abtme p {
         width: 90%;
         margin: 10px auto;
         padding: 20px;
     }
+
     .abtme img {
         width: 100%;
         height: auto;
-        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
+
     .contact-container {
         flex-direction: column;
         padding: 10px;
     }
+
     .contact-inputs {
         width: 90%;
     }
+
     .contact-left textarea {
         width: 90%;
     }
+
     .contact-left button {
         width: 90%;
     }
+
     #bizcard img {
         width: 100%;
         height: auto;
         margin: 0 auto;
     }
+
     .footer {
         flex-direction: column;
         text-align: center;
         padding: 20px;
     }
+
     #bottom {
         flex-direction: column;
         height: auto;
         padding: 20px;
         width: fit-content;
     }
+
     #bottom img {
         width: fit-content;
         height: auto;
@@ -373,14 +432,16 @@ body{
         flex-direction: column;
     }
 }
+
 @media (max-width: 600px) {
     body {
         font-size: 14px;
+        width: 100%;
     }
 
     .navlinks {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         height: auto;
         align-items: center;
         gap: 10px;
@@ -436,7 +497,7 @@ body{
 
     .footer {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         text-align: center;
         padding: 20px;
     }

@@ -339,40 +339,73 @@ body{
 @media (max-width: 600px) {
     body{
         width: 100%;
+        max-width: 100%;
+        margin: 0px;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
     }
     .grid {
         display: flex;
         flex-direction: column;
+        justify-items: space-evenly;
         align-items: center;
         padding: 10px;
-        gap: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 5px;
         width: 100%;
     }
-
     .grid img {
-        width: 90vw;
-        height: auto;
-        max-width: 100%;
+        width: 400px;
+        height: 400px;
         object-fit: cover;
+        margin-left: auto;
+        margin-right: auto;
     }
-
-    .book1, .book2, .book3,
-    .service1, .service2, .service3,
-    .img1, .img2, .img3 {
-        margin: 0 auto 30px auto;
-        text-align: center;
-        padding: 0 10px;
+    .book1 {
+        margin-left: auto;
+        margin-right: auto;
         z-index: 1;
-        width: fit-content;
-    }
-
-    .service1, .service2, .service3 {
-        padding-top: 20px;
-    }
-    .footer {
-        display: flex;
-        flex-direction: column;
         text-align: center;
-        padding: 20px;
+        padding: 0px;
+        width: 100%;
     }
+    .book2 {
+        margin-top: -90px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+        z-index: 1;
+        text-align: center;
+        padding: 0px;
+    }
+    .book3 {
+        margin-top: -90px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+        z-index: 1;
+        text-align: center;
+        padding: 0px;
+    }
+    .service1 {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        height: fit-content;
+    }
+    .service2{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        height: fit-content;
+    }
+    .service3{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        height: fit-content;
+    }
+   
 }

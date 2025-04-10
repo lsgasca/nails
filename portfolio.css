@@ -312,6 +312,9 @@ body {
     }
 }
 @media (max-width: 600px) {
+    body{ 
+        width: 100%;
+    }
     .grid {
         display: flex;
         flex-direction: column;
@@ -332,7 +335,7 @@ body {
     }
     .footer {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         text-align: center;
         padding: 20px;
     }

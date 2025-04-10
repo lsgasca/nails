@@ -504,24 +504,57 @@ body {
         text-align: center;
         padding: 0px;
     }
+    #bottom {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 5px;
+        width: 100%;
+        align-items: center;
+        gap: 5px;
+    }
+
+    #bottom img {
+        width: 300px;
+        height: 300px;
+        margin: 10px auto;
+        display: block;
+    }
 }
 @media (max-width: 600px) {
+    .body {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%; 
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+    }
     .grid {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
-        padding: 10px;
-        margin: 10px;
+        padding: 10px; 
+        margin-left: auto;
+        margin-right: auto;
         gap: 10px;
+        width: 100%;
     }
 
     .grid img {
         width: 100%;
-        max-width: 90vw;
-        height: auto;
+        max-width: 100%;
+        height: square;
+        object-position: center;
         object-fit: cover;
         display: block;
+        margin-left:auto;
+        margin-right: auto;
+        align-items: center;
+        justify-content: space-evenly;
     }
 
     #cover img {
@@ -535,7 +568,8 @@ body {
     .serv2header,
     .serv3header {
         font-size: 20px;
-        margin: 0 auto;
+       margin-left:auto;
+        margin-right: auto;
         text-align: center;
         z-index: 1;
     }
@@ -543,33 +577,44 @@ body {
     .book1,
     .book2,
     .book3 {
-        margin: -70px auto 50px;
         z-index: 1;
         text-align: center;
         padding: 0;
-        width: 90%;
+        width: fit-content;
+        margin-left:auto;
+        margin-right: auto;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgb(195, 195, 195);
+        color: rgb(124, 0, 0);
     }
 
     .service1,
     .service2,
     .service3 {
-        margin: -70px auto 0;
+        margin-left: auto;
+        margin-right: auto;        
         text-align: center;
         padding-top: 20px;
-        width: 90%;
+        width: fit-content;
+        justify-content: space-evenly;
+        align-items: center;
     }
 
     .img1,
     .img2,
     .img3 {
-        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;        
         text-align: center;
         padding: 0;
         width: 100%;
+        justify-items: center;
+        align-items: center;
     }
     .footer {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         text-align: center;
         padding: 20px;
     }
@@ -577,15 +622,15 @@ body {
         display: flex;
         flex-direction: column;
         height: auto;
-        padding: 20px;
+        padding: 5px;
         width: 100%;
         align-items: center;
-        gap: 10px;
+        gap: 5px;
     }
 
     #bottom img {
-        width: 300px;
-        height: auto;
+        width: 200px;
+        height: 200px;
         margin: 10px auto;
         display: block;
     }
