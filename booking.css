@@ -249,7 +249,7 @@ body{
     background-color: rgb(181, 181, 181);
     color: rgb(124, 0, 0);
 }
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     .grid {
         display: flex;
         flex-direction: column;

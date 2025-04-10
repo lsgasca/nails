@@ -266,7 +266,7 @@ body{
     object-fit: cover;
 
 }
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
     .grid2 {
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
@@ -309,4 +309,65 @@ body{
         margin-bottom: auto;
     }
     
+}
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    .navlinks {
+        flex-direction: column;
+        height: auto;
+    }
+    .navlinks button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .grid2 {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        height: fit-content;
+    }
+    .abtme p {
+        width: 90%;
+        margin: 10px auto;
+        padding: 20px;
+    }
+    .abtme img {
+        width: 100%;
+        height: auto;
+        right: 0;
+    }
+    .contact-container {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .contact-inputs {
+        width: 90%;
+    }
+    .contact-left textarea {
+        width: 90%;
+    }
+    .contact-left button {
+        width: 90%;
+    }
+    #bizcard img {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+    #bottom {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+    #bottom img {
+        width: 80%;
+        height: auto;
+        margin: 10px auto;
+    }
 }
