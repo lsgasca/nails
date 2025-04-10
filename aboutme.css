@@ -361,9 +361,15 @@ body{
         padding: 20px;
     }
     #bottom {
-        display: none;
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        width: fit-content;
     }
     #bottom img {
-       display: none;
+        width: fit-content;
+        height: auto;
+        margin: 10px auto;
+        flex-direction: column;
     }
 }
