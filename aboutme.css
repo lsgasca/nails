@@ -407,7 +407,7 @@ body{
     }
 
     .abtme img {
-        width: 100%;
+        width: 90%;
         height: 300px;
         display: block;
         margin: 0 auto;
@@ -452,7 +452,7 @@ body{
     }
 
     #bottom img {
-        width: auto;
+        width: 300px;
         height: auto;
         margin: 10px auto;
         display: block;
