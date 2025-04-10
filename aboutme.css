@@ -331,7 +331,7 @@ body {
 @media (max-width: 600px) {
     body {
         width: 100%;
-        max-width: 100%;
+        max-width: 100vw;
         margin: 0px;
         justify-content: center;
         align-items: center;
@@ -437,6 +437,7 @@ body {
     body {
         font-size: 14px;
         width: 100%;
+        max-width: 100vw;
     }
 
     .navlinks {
@@ -458,20 +459,26 @@ body {
         gap: 10px;
         height: fit-content;
         width: 100%;
+        max-width: 96vw;
     }
 
     .abtme p {
         width: 90%;
-        margin: 10px auto;
+        max-width: 85vw;
+        margin: none;
         padding: 20px;
         text-align: center;
+        justify-content: center;
     }
 
     .abtme img {
         width: 90%;
-        height: 300px;
+        height: auto;
         display: block;
-        margin: 0 auto;
+        margin: none;
+        margin-top: 10px;
+        max-width: 90vw;
+        justify-content: center;
     }
 
     .contact-container {
@@ -490,6 +497,7 @@ body {
 
     #bizcard img {
         width: 100%;
+        max-width: 100vw;
         height: auto;
         display: block;
         margin: 0 auto;
@@ -497,19 +505,21 @@ body {
 
     .footer {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         text-align: center;
-        padding: 20px;
+        width: 100%;
+        max-width: 90vw;
     }
 
     #bottom {
         display: flex;
         flex-direction: column;
         height: auto;
-        padding: 20px;
+        padding: 2px;
         width: 100%;
+        max-width: 100vw;
         align-items: center;
-        gap: 10px;
+        gap: 5px;
     }
 
     #bottom img {
@@ -518,4 +528,5 @@ body {
         margin: 10px auto;
         display: block;
     }
+   
 }
