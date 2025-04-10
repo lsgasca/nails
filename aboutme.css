@@ -442,19 +442,10 @@ body{
     }
 
     #bottom {
-        display: flex;
-        flex-direction: column;
-        height: auto;
-        padding: 20px;
-        width: 100%;
-        align-items: center;
-        gap: 10px;
+        display: none;
     }
-
     #bottom img {
-        width: 300px;
-        height: auto;
-        margin: 10px auto;
-        display: block;
+       
+        display: none;
     }
 }
