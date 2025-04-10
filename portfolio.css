@@ -320,6 +320,7 @@ body {
         padding: 20px;
         margin-top: 50px;
         gap: 20px; /* optional: adds space between items */
+        width: 100%;
     }
 
     .item img {
@@ -328,5 +329,11 @@ body {
         height: auto;
         display: block;
         margin: 0 auto;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
     }
 }

@@ -924,7 +924,7 @@ div {
     #img9, #feb9, #mar9,
     #feb10 {
         width: 100%;
-        max-width: 100%;
+        max-width: 90vw;
         height: auto;
         object-fit: cover;
         border-radius: 20px;

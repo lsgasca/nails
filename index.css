@@ -567,4 +567,26 @@ body {
         padding: 0;
         width: 100%;
     }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+    #bottom {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        width: 100%;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #bottom img {
+        width: 300px;
+        height: auto;
+        margin: 10px auto;
+        display: block;
+    }
 }
