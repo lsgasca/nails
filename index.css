@@ -505,3 +505,66 @@ body {
         padding: 0px;
     }
 }
+@media (max-width: 600px) {
+    .grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        margin: 10px;
+        gap: 10px;
+    }
+
+    .grid img {
+        width: 100%;
+        max-width: 90vw;
+        height: auto;
+        object-fit: cover;
+        display: block;
+    }
+
+    #cover img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        display: block;
+    }
+
+    .serv1header,
+    .serv2header,
+    .serv3header {
+        font-size: 20px;
+        margin: 0 auto;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .book1,
+    .book2,
+    .book3 {
+        margin: -70px auto 50px;
+        z-index: 1;
+        text-align: center;
+        padding: 0;
+        width: 90%;
+    }
+
+    .service1,
+    .service2,
+    .service3 {
+        margin: -70px auto 0;
+        text-align: center;
+        padding-top: 20px;
+        width: 90%;
+    }
+
+    .img1,
+    .img2,
+    .img3 {
+        margin: 0 auto;
+        text-align: center;
+        padding: 0;
+        width: 100%;
+    }
+}

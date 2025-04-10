@@ -336,3 +336,32 @@ body{
     }
 
 }
+@media (max-width: 600px) {
+    .grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .grid img {
+        width: 90vw;
+        height: auto;
+        max-width: 100%;
+        object-fit: cover;
+    }
+
+    .book1, .book2, .book3,
+    .service1, .service2, .service3,
+    .img1, .img2, .img3 {
+        margin: 0 auto 30px auto;
+        text-align: center;
+        padding: 0 10px;
+        z-index: 1;
+    }
+
+    .service1, .service2, .service3 {
+        padding-top: 20px;
+    }
+}

@@ -311,3 +311,22 @@ body {
         height: auto;
     }
 }
+@media (max-width: 600px) {
+    .grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* corrected from justify-items */
+        align-items: center;
+        padding: 20px;
+        margin-top: 50px;
+        gap: 20px; /* optional: adds space between items */
+    }
+
+    .item img {
+        width: 100%;
+        max-width: 90vw; /* prevents overflow */
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+}

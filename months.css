@@ -850,3 +850,84 @@ div {
         height: 500px;    }
     
 }
+@media (max-width: 600px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body, html {
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    #title {
+        font-size: 2.5rem;
+        text-align: center;
+        color: rgb(124, 0, 0);
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .AUGNAILS, .OCTNAILS, .SEPNAILS, .NOVNAILS, .DECNAILS, .JANNAILS, .FEBNAILS, .MARNAILS {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .OCTNAILS {
+        margin-top: 0;
+    }
+
+    #augblurb, 
+    #des1, #leopardp,
+    #des2, #halloweenp,
+    #aurap {
+        width: 90%;
+        font-size: 1.2rem;
+        border-radius: 20px;
+        background-color: rgb(148, 148, 148);
+        color: rgb(72, 1, 1);
+        margin: 0 auto;
+        padding: 20px;
+        box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.5);
+    }
+
+    #startitle, #leopardtitle,
+    #chrometitle, #halloweentitle,
+    #auratitle {
+        background-color: rgb(195, 195, 195);
+        font-size: 2rem;
+        color: rgb(124, 0, 0);
+        width: 90%;
+        margin: 50px auto 0;
+        padding: 10px;
+        border-radius: 20px;
+        box-shadow: 10px 10px 0px rgba(0, 0, 0, 0.5);
+        text-align: center;
+    }
+
+    #pinkstars, #leopard,
+    #chromenails, #halloweennails,
+    #aurapink, #aurapink2,
+    #rednailsmirror, #dec1, #img1, #feb1, #mar1,
+    #coffinred, #dec2, #img2, #feb2, #mar2,
+    #nginanails, #dec3, #img3, #feb3, #mar3,
+    #autumnnails1, #dec4, #img4, #feb4, #mar4,
+    #dec5, #img5, #feb5, #mar5,
+    #dec6, #img6, #feb6, #mar6,
+    #dec7, #img7, #feb7, #mar7,
+    #img8, #feb8, #mar8,
+    #img9, #feb9, #mar9,
+    #feb10 {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 20px;
+        margin: 0 auto;
+    }
+}
