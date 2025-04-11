@@ -872,7 +872,7 @@ div {
         padding: 0px;
     }
 
-    .AUGNAILS, .OCTNAILS {
+    .AUGNAILS {
         display: grid;
         gap: 15px;
         padding: 0px;
@@ -885,6 +885,20 @@ div {
         max-width: 98vw;
         overflow: hidden;
         margin-top: 400px;
+    }
+    .OCTNAILS {
+        display: grid;
+        gap: 15px;
+        padding: 0px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(7, auto);
+        justify-content: center;
+        align-content: center;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 98vw;
+        overflow: hidden;
+        margin-top: 160px;
     }
 
     #augblurb {
@@ -954,7 +968,7 @@ div {
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin: 100px auto 0 auto;
+        margin: auto;
         overflow: hidden;
     }
 
@@ -1003,7 +1017,7 @@ div {
         grid-row: 7;
         border-radius: 20px;
         filter: drop-shadow(10px 10px 0px rgba(0, 0, 0, 0.5));
-        margin: 30px auto 0 auto;
+        margin: auto;
         padding: 10px;
         overflow: hidden;
     }
@@ -1098,14 +1112,16 @@ div {
         margin-top: 150px;
         padding: 10px;
         overflow-x: hidden;
+        text-align: center; /* Center-align content */
+        margin-left: -5px;
     }
-    
+
     #rednailsmirror, #dec1, #img1, #feb1, #mar1 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 1;
         border-radius: 20px;
-        margin: 0 auto;
+        margin: auto;
         width: 300px;
         height: 300px;
         display: flex;
