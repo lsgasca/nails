@@ -33,7 +33,7 @@ p {
 
 #hometitle {
     background-color: rgb(205, 205, 205);
-    width: 100%;
+    width: 100vw;
     height: 160px;
 }
 
