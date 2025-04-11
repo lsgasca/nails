@@ -348,14 +348,16 @@ body{
     .grid {
         display: flex;
         flex-direction: column;
-        justify-items: space-evenly;
+        justify-content: center;
         align-items: center;
         padding: 10px;
         margin-left: auto;
         margin-right: auto;
         gap: 5px;
         width: 100%;
+        overflow: hidden;
     }
+
     .grid img {
         width: 400px;
         height: 400px;
@@ -370,42 +372,64 @@ body{
         text-align: center;
         padding: 0px;
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
     }
     .book2 {
-        margin-top: -90px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 50px;
+        margin: 0 auto;
         z-index: 1;
         text-align: center;
         padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
     }
     .book3 {
-        margin-top: -90px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 50px;
+        margin: 0 auto;
         z-index: 1;
         text-align: center;
         padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
     }
     .service1 {
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
         text-align: center;
         height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        width: 80vw;
     }
-    .service2{
-        margin-left: auto;
-        margin-right: auto;
+    .service2 {
+        margin: 0 auto;
         text-align: center;
         height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        flex-direction: column;
+        width: 80vw;
     }
-    .service3{
-        margin-left: auto;
-        margin-right: auto;
+
+    .service3 {
+        margin: 0 auto;
         text-align: center;
         height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        flex-direction: column;
+        width: 80vw;
     }
    
 }
