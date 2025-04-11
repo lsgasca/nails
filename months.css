@@ -874,23 +874,18 @@ div {
 
     .AUGNAILS, .OCTNAILS {
         display: grid;
-        column-gap: none;
-        row-gap: 15px;
+        gap: 15px;
         padding: 0px;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(7, auto);
-        justify-content: space-evenly;
-        align-content: space-evenly;
-        margin-left: auto;
-        margin-top: 10px;
-        margin-right: auto;
+        justify-content: center;
+        align-content: center;
+        margin: 0 auto;
         width: 100%;
         max-width: 98vw;
+        overflow: hidden;
+        margin-top: 400px;
     }
-    .OCTNAILS{
-        margin-top: -300px;
-    }
-
 
     #augblurb {
         width: 90vw;
@@ -902,14 +897,18 @@ div {
         background-color: rgb(148, 148, 148);
         color: rgb(72, 1, 1);
         margin: 0 auto;
-        margin-left: -50px;
         padding: 2px;
         text-align: center;
         display: flex;
         justify-content: center;
         align-items: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+        margin-top: -150px;
     }
-
 
     #startitle, #leopardtitle {
         background-color: rgb(195, 195, 195);
@@ -922,13 +921,11 @@ div {
         height: fit-content;
         border-radius: 20px;
         filter: drop-shadow(10px 10px 0px rgba(0, 0, 0, 0.5));
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
         text-align: center;
         display: flex;
         justify-content: center;
-     
-
+        overflow: hidden;
     }
 
     #pinkstars, #leopard {
@@ -937,11 +934,10 @@ div {
         width: 400px;
         height: 400px;
         margin: 0 auto;
-        margin-top: 100px;
         display: flex;
         justify-content: center;
         align-items: center;
-
+        overflow: hidden;
     }
 
     #des1, #leopardp {
@@ -958,11 +954,8 @@ div {
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 100px;
-
-
+        margin: 100px auto 0 auto;
+        overflow: hidden;
     }
 
     #chrometitle, #halloweentitle {
@@ -976,12 +969,12 @@ div {
         height: fit-content;
         border-radius: 20px;
         filter: drop-shadow(10px 10px 0px rgba(0, 0, 0, 0.5));
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 10px;
+        margin: 0 auto;
         text-align: center;
         display: flex;
         justify-content: center;
+        padding: 10px;
+        overflow: hidden;
     }
 
     #chromenails, #halloweennails {
@@ -993,6 +986,7 @@ div {
         display: flex;
         justify-content: center;
         align-items: center;
+        overflow: hidden;
     }
 
     #des2, #halloweenp {
@@ -1009,10 +1003,9 @@ div {
         grid-row: 7;
         border-radius: 20px;
         filter: drop-shadow(10px 10px 0px rgba(0, 0, 0, 0.5));
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 30px;
+        margin: 30px auto 0 auto;
         padding: 10px;
+        overflow: hidden;
     }
 
     .SEPNAILS {

@@ -312,9 +312,20 @@ body {
     }
 
     .footer {
-        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: full-width;
+        max-width: 100%;
     }
-
+    .footer button {
+        width: 1fr;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        align-items: center;
+    }
     #bizcard img {
         width: 100%;
         height: auto;
@@ -330,111 +341,6 @@ body {
 
 @media (max-width: 600px) {
     body {
-        width: 100%;
-        max-width: 100vw;
-        margin: 0px;
-        justify-content: center;
-        align-items: center;
-        padding: 0px;
-    }
-
-    .grid2 {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        padding: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        gap: 10px;
-        width: 100%;
-    }
-
-    .grid img {
-        width: 100%;
-        max-width: 100%;
-        height: square;
-        object-position: center;
-        object-fit: cover;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-    .navlinks {
-        display: flex;
-        flex-direction: row;
-        height: auto;
-        align-items: center;
-        gap: 10px;
-    }
-    .navlinks button {
-        width: 100%;
-        margin-top: 10px;
-    }
-
-    .abtme p {
-        width: 90%;
-        margin: 10px auto;
-        padding: 20px;
-    }
-
-    .abtme img {
-        width: 100%;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    .contact-container {
-        flex-direction: column;
-        padding: 10px;
-    }
-
-    .contact-inputs {
-        width: 90%;
-    }
-
-    .contact-left textarea {
-        width: 90%;
-    }
-
-    .contact-left button {
-        width: 90%;
-    }
-
-    #bizcard img {
-        width: 100%;
-        height: auto;
-        margin: 0 auto;
-    }
-
-    .footer {
-        flex-direction: column;
-        text-align: center;
-        padding: 20px;
-    }
-
-    #bottom {
-        flex-direction: column;
-        height: auto;
-        padding: 20px;
-        width: fit-content;
-    }
-
-    #bottom img {
-        width: fit-content;
-        height: auto;
-        margin: 10px auto;
-        flex-direction: column;
-    }
-}
-
-@media (max-width: 600px) {
-    body {
         font-size: 14px;
         width: 100%;
         max-width: 100vw;
@@ -446,11 +352,14 @@ body {
         height: auto;
         align-items: center;
         gap: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     .navlinks button {
         width: 100%;
         margin-bottom: 10px;
+        
     }
 
     .grid2 {
@@ -459,24 +368,25 @@ body {
         gap: 10px;
         height: fit-content;
         width: 100%;
-        max-width: 96vw;
+        max-width: 100vw;
     }
 
     .abtme p {
         width: 90%;
         max-width: 85vw;
-        margin: none;
+        margin: 30 auto;
+        margin-left: 5px;
         padding: 20px;
         text-align: center;
         justify-content: center;
+        overflow-wrap: break-word;
     }
 
     .abtme img {
         width: 90%;
         height: auto;
         display: block;
-        margin: none;
-        margin-top: 10px;
+        margin: 10px auto;
         max-width: 90vw;
         justify-content: center;
     }
@@ -507,8 +417,16 @@ body {
         display: flex;
         flex-direction: column;
         text-align: center;
-        width: 100%;
-        max-width: 90vw;
+        width: full-width;
+        max-width: 100%;
+    }
+    .footer button {
+        width: 1fr;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        align-items: center;
     }
 
     #bottom {
