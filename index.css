@@ -410,6 +410,7 @@ body {
         width: 100%;
         height: auto;
         object-fit: cover;
+        margin-top: 50px;
     }
     .serv1header{
         font-size: 20px;
@@ -562,6 +563,7 @@ body {
         height: auto;
         object-fit: cover;
         display: block;
+        margin-top: 50px;
     }
 
     .serv1header, .serv2header, .serv3header {

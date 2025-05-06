@@ -530,6 +530,13 @@ div {
         margin-left: auto;
         margin-right: auto;
     }
+    img {
+        width: 90vw;
+        height: 500px;
+        margin: 0px;
+        padding: 20px;
+    }
+    
     #title {
         font-size: 50px;
         text-align: center;
@@ -758,10 +765,12 @@ div {
         grid-column: 1;
         grid-row: 1;
         border-radius: 20px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
         width: 500px;
         height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
     #coffinred, #dec2, #img2, #feb2, #mar2, #apr2 {
@@ -769,10 +778,12 @@ div {
         grid-column: 1;
         grid-row: 2;
         border-radius: 20px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
         width: 500px;
         height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
     #ngina, #dec3, #img3, #feb3, #mar3, #apr3 {
@@ -793,78 +804,94 @@ div {
         grid-column: 1;
         grid-row: 4;
         border-radius: 20px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
         width: 500px;
-        height: 500px;    }
-    
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;}
+
     #dec5, #img5, #feb5, #mar5, #apr5 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 5;
         border-radius: 20px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
         width: 500px;
-        height: 500px;    }
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;    }
     
     #dec6, #img6, #feb6, #mar6, #apr6 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 6;
         border-radius: 20px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
         width: 500px;
-        height: 500px;    }
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;   }
     
     #dec7, #img7, #feb7, #mar7, #apr7 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 7;
         border-radius: 20px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
         width: 500px;
-        height: 500px;    }
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;  }
     
     #img8, #feb8, #mar8, #apr8 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 8;
         border-radius: 20px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
         width: 500px;
-        height: 500px;    }
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;  }
     
     #img9, #feb9, #mar9, #apr9 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 9;
         border-radius: 20px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
         width: 500px;
-        height: 500px;    }
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;    }
      #feb10, #mar10, #apr10 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 10;
         border-radius: 20px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
         width: 500px;
-        height: 500px;    }
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;    }
     #apr11 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 11;
         border-radius: 20px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
         width: 500px;
-        height: 500px;    }
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;   }
     
 }
 @media (max-width: 600px) {
@@ -875,6 +902,13 @@ div {
         margin-right: auto;
         width: 100%;
         max-width: 100vw;
+    }
+    img {
+        width: 99vw;
+        height: 350px;
+        object-fit: cover;
+        filter: drop-shadow(10px 10px 0px rgba(0, 0, 0, 0.5));
+        padding: 10px;
     }
     #title {
         font-size: 50px;
