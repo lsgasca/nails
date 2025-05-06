@@ -223,22 +223,38 @@ body {
     filter: drop-shadow(10px 10px 0px rgba(0, 0, 0, 0.5));
 
 }
-
 .footer {
     display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: full-width;
-    max-width: 100%;
-}
-.footer button {
-    width: 1fr;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    padding: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: rgb(195, 195, 195);
+    font-size: 30px;
+    color: rgb(124, 0, 0);
+    height: auto;
+    margin-bottom: 0px;
 }
+
+.footer button {
+    background-color: rgb(124, 0, 0);
+    color: rgb(195, 195, 195);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'JMH Typewriter';
+    height: 50px;
+
+}
+
+.footer button:hover {
+    background-color: rgb(181, 181, 181);
+    color: rgb(124, 0, 0);
+}
+
 @media (max-width: 1000px) {
     .grid {
         display: flex;
@@ -335,21 +351,7 @@ body {
 
     }
 
-    .footer {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        width: full-width;
-        max-width: 100%;
-    }
-    .footer button {
-        width: 1fr;
-        margin-top: 10px;
-        margin-left: auto;
-        margin-right: auto;
-        justify-content: center;
-        align-items: center;
-    }
+   
 }
 
 @media (max-width: 600px) {
@@ -457,6 +459,15 @@ body {
         width: 80vw;
     }
 
+  
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
     .footer {
         display: flex;
         flex-direction: column;
@@ -471,14 +482,6 @@ body {
         margin-right: auto;
         justify-content: center;
         align-items: center;
-    }
-    img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 100%;
-        height: auto;
-        overflow: hidden;
     }
 }
 

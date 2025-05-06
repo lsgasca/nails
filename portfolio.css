@@ -106,7 +106,7 @@ body {
     background-color: #B62025;
     margin: 0px;
     padding: 0px;
-    width: fit-content;
+    width: 100vw;
 }
 
 .grid {
@@ -122,7 +122,7 @@ body {
     justify-items: center;
     align-items: center;
     height: fit-content;
-    width: 100%;
+    width: 100vw;
     margin-top: 20px;
     margin-bottom: 100px;
     padding-top: 50px;
@@ -136,9 +136,9 @@ body {
 }
 
 .item img {
-    width: 550px;
+    width: 475px;
     /* Adjust as needed */
-    height: 550px;
+    height: 475px;
     /* Adjust as needed */
     object-fit: cover;
     filter: drop-shadow(10px 10px 0px rgba(0, 0, 0, 0.5));

@@ -131,7 +131,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding-bottom: 30px;
+    padding-bottom: 70px;
     margin-right: auto;
     margin-left: auto;
     margin-top: auto;
@@ -397,6 +397,7 @@ body {
         padding: 10px;
         gap: 20px;
         align-items: center;
+        height: fit-content;
     }
 
     .contact-inputs,

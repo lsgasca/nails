@@ -14,8 +14,8 @@
 }
 
 img {
-    width: 500px;
-    height: 500px;
+    width: 28vw;
+    height: 400px;
     object-fit: cover;
     filter: drop-shadow(10px 10px 0px rgba(0, 0, 0, 0.5));
     padding: 20px;
@@ -428,7 +428,7 @@ p {
 
 }
 
-.DECNAILS, .NOVNAILS, .JANNAILS, .FEBNAILS, .MARNAILS {
+.DECNAILS, .NOVNAILS, .JANNAILS, .FEBNAILS, .MARNAILS, .APRNAILS {
     display: grid;
     gap: 20px;
     grid-template-columns: auto 1fr 1fr 1fr auto;
@@ -441,71 +441,77 @@ p {
    
 }
 
-#dec1, #rednailsmirror, #img1, #feb1, #mar1 {
+#dec1, #rednailsmirror, #img1, #feb1, #mar1, #apr1 {
     object-fit: cover;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     border-radius: 20px;
 }
 
-#dec2, #coffinred, #img2, #feb2, #mar2 {
+#dec2, #coffinred, #img2, #feb2, #mar2, #apr2 {
     object-fit: cover;
     grid-column: 3 / 4;
     grid-row: 2 / 3;
     border-radius: 20px;
 }
 
-#dec3, #ngina, #img3, #feb3, #mar3 {
+#dec3, #ngina, #img3, #feb3, #mar3, #apr3 {
     object-fit: cover;
     grid-column: 4 / 5;
     grid-row: 2 / 3;
     border-radius: 20px;
 }
 
-#dec4, #autumnnails1, #img4, #feb4, #mar4 {
+#dec4, #autumnnails1, #img4, #feb4, #mar4, #apr4 {
     object-fit: cover;
     grid-column: 2 / 3;
     grid-row: 3 / 4;
     border-radius: 20px;
 }
 
-#dec5, #img5, #feb5, #mar5 {
+#dec5, #img5, #feb5, #mar, #apr5 {
     object-fit: cover;
     grid-column: 3 / 4;
     grid-row: 3 / 4;
     border-radius: 20px;
 }
 
-#dec6, #img6, #feb6, #mar6 {
+#dec6, #img6, #feb6, #mar6, #apr6 {
     object-fit: cover;
     grid-column: 4 / 5;
     grid-row: 3 / 4;
     border-radius: 20px;
 }
 
-#dec7, #img7, #feb7, #mar7 {
+#dec7, #img7, #feb7, #mar, #apr7 {
     object-fit: cover;
     grid-column: 2 / 3;
     grid-row: 4 / 5;
     border-radius: 20px;
 }
 
-#img8, #feb8, #mar8 {
+#img8, #feb8, #mar8, #apr8 {
     object-fit: cover;
     grid-column: 3 / 4;
     grid-row: 4 / 5;
     border-radius: 20px;
 }
 
-#img9, #feb9, #mar9 {
+#img9, #feb9, #mar9, #apr9 {
     object-fit: cover;
     grid-column: 4 / 5;
     grid-row: 4 / 5;
     border-radius: 20px;
 }
-#feb10, #mar10 {
+#feb10, #mar10, #apr10 {
     object-fit: cover;
     grid-column: 2 / 3;
+    grid-row: 5 / 6;
+    border-radius: 20px;
+}
+ #apr11 {
+    object-fit: cover;
+    grid-column: 3 / 4;
     grid-row: 5 / 6;
     border-radius: 20px;
 }
@@ -733,7 +739,7 @@ div {
         margin-top: 30px;
     }
 
-    .NOVNAILS, .DECNAILS, .JANNAILS, .FEBNAILS, .MARNAILS {
+    .NOVNAILS, .DECNAILS, .JANNAILS, .FEBNAILS, .MARNAILS, .APRNAILS {
         display: grid;
         gap: 5px;
         grid-template-columns: 98vw;
@@ -747,7 +753,7 @@ div {
         overflow: hidden;
     }
     
-    #rednailsmirror, #dec1, #img1, #feb1, #mar1 {
+    #rednailsmirror, #dec1, #img1, #feb1, #mar1, #apr1 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 1;
@@ -758,7 +764,7 @@ div {
         height: 500px;
     }
     
-    #coffinred, #dec2, #img2, #feb2, #mar2 {
+    #coffinred, #dec2, #img2, #feb2, #mar2, #apr2 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 2;
@@ -769,7 +775,7 @@ div {
         height: 500px;
     }
     
-    #ngina, #dec3, #img3, #feb3, #mar3 {
+    #ngina, #dec3, #img3, #feb3, #mar3, #apr3 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 3;
@@ -782,7 +788,7 @@ div {
         align-items: center;
     }
     
-    #autumnnails1, #dec4, #img4, #feb4, #mar4 {
+    #autumnnails1, #dec4, #img4, #feb4, #mar4, #apr4 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 4;
@@ -792,7 +798,7 @@ div {
         width: 500px;
         height: 500px;    }
     
-    #dec5, #img5, #feb5, #mar5 {
+    #dec5, #img5, #feb5, #mar5, #apr5 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 5;
@@ -802,7 +808,7 @@ div {
         width: 500px;
         height: 500px;    }
     
-    #dec6, #img6, #feb6, #mar6 {
+    #dec6, #img6, #feb6, #mar6, #apr6 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 6;
@@ -812,7 +818,7 @@ div {
         width: 500px;
         height: 500px;    }
     
-    #dec7, #img7, #feb7, #mar7 {
+    #dec7, #img7, #feb7, #mar7, #apr7 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 7;
@@ -822,7 +828,7 @@ div {
         width: 500px;
         height: 500px;    }
     
-    #img8, #feb8, #mar8 {
+    #img8, #feb8, #mar8, #apr8 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 8;
@@ -832,7 +838,7 @@ div {
         width: 500px;
         height: 500px;    }
     
-    #img9, #feb9, #mar9 {
+    #img9, #feb9, #mar9, #apr9 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 9;
@@ -841,10 +847,19 @@ div {
         margin-right: auto;
         width: 500px;
         height: 500px;    }
-     #feb10{
+     #feb10, #mar10, #apr10 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 10;
+        border-radius: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+        height: 500px;    }
+    #apr11 {
+        object-fit: cover;
+        grid-column: 1;
+        grid-row: 11;
         border-radius: 20px;
         margin-left: auto;
         margin-right: auto;
@@ -1098,7 +1113,7 @@ div {
         overflow: hidden;
     }
 
-    .NOVNAILS, .DECNAILS, .JANNAILS, .FEBNAILS, .MARNAILS {
+    .NOVNAILS, .DECNAILS, .JANNAILS, .FEBNAILS, .MARNAILS, .APRNAILS {
         display: grid;
         gap: 20px;
         grid-template-columns: 1fr;
@@ -1116,7 +1131,7 @@ div {
         margin-left: -5px;
     }
 
-    #rednailsmirror, #dec1, #img1, #feb1, #mar1 {
+    #rednailsmirror, #dec1, #img1, #feb1, #mar1, #apr1 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 1;
@@ -1130,7 +1145,7 @@ div {
         overflow: hidden;
     }
     
-    #coffinred, #dec2, #img2, #feb2, #mar2 {
+    #coffinred, #dec2, #img2, #feb2, #mar2, #apr2 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 2;
@@ -1144,7 +1159,7 @@ div {
         overflow: hidden;
     }
     
-    #ngina, #dec3, #img3, #feb3, #mar3 {
+    #ngina, #dec3, #img3, #feb3, #mar3, #apr3 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 3;
@@ -1158,7 +1173,7 @@ div {
         overflow: hidden;
     }
     
-    #autumnnails1, #dec4, #img4, #feb4, #mar4 {
+    #autumnnails1, #dec4, #img4, #feb4, #mar4, #apr4 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 4;
@@ -1172,7 +1187,7 @@ div {
         overflow: hidden;
     }
     
-    #dec5, #img5, #feb5, #mar5 {
+    #dec5, #img5, #feb5, #mar5, #apr5 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 5;
@@ -1186,7 +1201,7 @@ div {
         overflow: hidden;
     }
     
-    #dec6, #img6, #feb6, #mar6 {
+    #dec6, #img6, #feb6, #mar6, #apr6 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 6;
@@ -1200,7 +1215,7 @@ div {
         overflow: hidden;
     }
     
-    #dec7, #img7, #feb7, #mar7 {
+    #dec7, #img7, #feb7, #mar7, #apr7 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 7;
@@ -1214,7 +1229,7 @@ div {
         overflow: hidden;
     }
     
-    #img8, #feb8, #mar8 {
+    #img8, #feb8, #mar8, #apr8 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 8;
@@ -1228,7 +1243,7 @@ div {
         overflow: hidden;
     }
     
-    #img9, #feb9, #mar9 {
+    #img9, #feb9, #mar9, #apr9 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 9;
@@ -1241,10 +1256,23 @@ div {
         align-items: center;
         overflow: hidden;
     }
-    #feb10 {
+    #feb10, #mar10, #apr10 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 10;
+        border-radius: 20px;
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    #apr11 {
+        object-fit: cover;
+        grid-column: 1;
+        grid-row: 11;
         border-radius: 20px;
         margin: 0 auto;
         width: 300px;
