@@ -296,6 +296,17 @@ body {
     filter: brightness(0.5);
     /* Makes the image darker */
 }
+#apr1 img {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    left: 1360px;
+    top: 1370px;
+    rotate: 180deg;
+    z-index: 2;
+    filter: brightness(0.5);
+    /* Makes the image darker */
+}
 @media (max-width: 1000px) {
     .grid {
         display: flex;
