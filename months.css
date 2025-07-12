@@ -428,7 +428,7 @@ p {
 
 }
 
-.DECNAILS, .NOVNAILS, .JANNAILS, .FEBNAILS, .MARNAILS, .APRNAILS, .MAYNAILS {
+.DECNAILS, .NOVNAILS, .JANNAILS, .FEBNAILS, .MARNAILS, .APRNAILS, .MAYNAILS, .JUNNAILS {
     display: grid;
     gap: 20px;
     grid-template-columns: auto 1fr 1fr 1fr auto;
@@ -441,78 +441,144 @@ p {
    
 }
 
-#dec1, #rednailsmirror, #img1, #feb1, #mar1, #apr1, #may1 {
+#dec1, #rednailsmirror, #img1, #feb1, #mar1, #apr1, #may1, #jun1 {
     object-fit: cover;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     border-radius: 20px;
 }
 
-#dec2, #coffinred, #img2, #feb2, #mar2, #apr2, #may2 {
+#dec2, #coffinred, #img2, #feb2, #mar2, #apr2, #may2, #jun2 {
     object-fit: cover;
     grid-column: 3 / 4;
     grid-row: 2 / 3;
     border-radius: 20px;
 }
 
-#dec3, #ngina, #img3, #feb3, #mar3, #apr3, #may3 {
+#dec3, #ngina, #img3, #feb3, #mar3, #apr3, #may3, #jun3 {
     object-fit: cover;
     grid-column: 4 / 5;
     grid-row: 2 / 3;
     border-radius: 20px;
 }
 
-#dec4, #autumnnails1, #img4, #feb4, #mar4, #apr4, #may4 {
+#dec4, #autumnnails1, #img4, #feb4, #mar4, #apr4, #may4, #jun4 {
     object-fit: cover;
     grid-column: 2 / 3;
     grid-row: 3 / 4;
     border-radius: 20px;
 }
 
-#dec5, #img5, #feb5, #mar, #apr5, #may5 {
+#dec5, #img5, #feb5, #mar, #apr5, #may5, #jun5 {
     object-fit: cover;
     grid-column: 3 / 4;
     grid-row: 3 / 4;
     border-radius: 20px;
 }
 
-#dec6, #img6, #feb6, #mar6, #apr6, #may6 {
+#dec6, #img6, #feb6, #mar6, #apr6, #may6, #jun6 {
     object-fit: cover;
     grid-column: 4 / 5;
     grid-row: 3 / 4;
     border-radius: 20px;
 }
 
-#dec7, #img7, #feb7, #mar, #apr7, #may7 {
+#dec7, #img7, #feb7, #mar, #apr7, #may7, #jun7 {
     object-fit: cover;
     grid-column: 2 / 3;
     grid-row: 4 / 5;
     border-radius: 20px;
 }
 
-#img8, #feb8, #mar8, #apr8, #may8 {
+#img8, #feb8, #mar8, #apr8, #may8, #jun8 {
     object-fit: cover;
     grid-column: 3 / 4;
     grid-row: 4 / 5;
     border-radius: 20px;
 }
 
-#img9, #feb9, #mar9, #apr9, #may9 {
+#img9, #feb9, #mar9, #apr9, #may9, #jun9 {
     object-fit: cover;
     grid-column: 4 / 5;
     grid-row: 4 / 5;
     border-radius: 20px;
 }
-#feb10, #mar10, #apr10, #may10 {
+#feb10, #mar10, #apr10, #may10, #jun10 {
     object-fit: cover;
     grid-column: 2 / 3;
     grid-row: 5 / 6;
     border-radius: 20px;
 }
- #apr11, #may11 {
+ #apr11, #may11, #jun11 {
     object-fit: cover;
     grid-column: 3 / 4;
     grid-row: 5 / 6;
+    border-radius: 20px;
+}
+#jun12 {
+    object-fit: cover;
+    grid-column: 4 / 5;
+    grid-row: 5 / 6;
+    border-radius: 20px;
+}
+#jun13 {
+    object-fit: cover;
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+    border-radius: 20px;
+}
+#jun14 {
+    object-fit: cover;
+    grid-column: 3 / 4;
+    grid-row: 6 / 7;
+    border-radius: 20px;
+}
+#jun15 {
+    object-fit: cover;
+    grid-column: 4 / 5;
+    grid-row: 6 / 7;
+    border-radius: 20px;
+}
+#jun16 {
+    object-fit: cover;
+    grid-column: 2 / 3;
+    grid-row: 7 / 8;
+    border-radius: 20px;
+}
+#jun17 {
+    object-fit: cover;
+    grid-column: 3 / 4;
+    grid-row: 7 / 8;
+    border-radius: 20px;
+}
+#jun18 {
+    object-fit: cover;
+    grid-column: 4 / 5;
+    grid-row: 7 / 8;
+    border-radius: 20px;
+}
+#jun19 {
+    object-fit: cover;
+    grid-column: 2 / 3;
+    grid-row: 8 / 9;
+    border-radius: 20px;
+}
+#jun20 {
+    object-fit: cover;
+    grid-column: 3 / 4;
+    grid-row: 8 / 9;
+    border-radius: 20px;
+}
+#jun21 {
+    object-fit: cover;
+    grid-column: 4 / 5;
+    grid-row: 8 / 9;
+    border-radius: 20px;
+}
+#jun22 {
+    object-fit: cover;
+    grid-column: 2 / 3;
+    grid-row: 9 / 10;
     border-radius: 20px;
 }
 
@@ -746,7 +812,7 @@ div {
         margin-top: 30px;
     }
 
-    .NOVNAILS, .DECNAILS, .JANNAILS, .FEBNAILS, .MARNAILS, .APRNAILS, .MAYNAILS {
+    .NOVNAILS, .DECNAILS, .JANNAILS, .FEBNAILS, .MARNAILS, .APRNAILS, .MAYNAILS, .JUNNAILS {
         display: grid;
         gap: 5px;
         grid-template-columns: 98vw;
@@ -760,7 +826,7 @@ div {
         overflow: hidden;
     }
     
-    #rednailsmirror, #dec1, #img1, #feb1, #mar1, #apr1, #may1 {
+    #rednailsmirror, #dec1, #img1, #feb1, #mar1, #apr1, #may1, #jun1 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 1;
@@ -773,7 +839,7 @@ div {
         align-items: center;
     }
     
-    #coffinred, #dec2, #img2, #feb2, #mar2, #apr2, #may2 {
+    #coffinred, #dec2, #img2, #feb2, #mar2, #apr2, #may2, #jun2 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 2;
@@ -786,7 +852,7 @@ div {
         align-items: center;
     }
     
-    #ngina, #dec3, #img3, #feb3, #mar3, #apr3, #may3 {
+    #ngina, #dec3, #img3, #feb3, #mar3, #apr3, #may3, #jun3 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 3;
@@ -799,7 +865,7 @@ div {
         align-items: center;
     }
     
-    #autumnnails1, #dec4, #img4, #feb4, #mar4, #apr4, #may4 {
+    #autumnnails1, #dec4, #img4, #feb4, #mar4, #apr4, #may4, #jun4 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 4;
@@ -811,7 +877,7 @@ div {
         justify-content: center;
         align-items: center;}
 
-    #dec5, #img5, #feb5, #mar5, #apr5, #may5 {
+    #dec5, #img5, #feb5, #mar5, #apr5, #may5, #jun5 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 5;
@@ -823,7 +889,7 @@ div {
         justify-content: center;
         align-items: center;    }
     
-    #dec6, #img6, #feb6, #mar6, #apr6, #may6 {
+    #dec6, #img6, #feb6, #mar6, #apr6, #may6, #jun6 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 6;
@@ -835,7 +901,7 @@ div {
         justify-content: center;
         align-items: center;   }
     
-    #dec7, #img7, #feb7, #mar7, #apr7, #may7 {
+    #dec7, #img7, #feb7, #mar7, #apr7, #may7, #jun7 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 7;
@@ -847,7 +913,7 @@ div {
         justify-content: center;
         align-items: center;  }
     
-    #img8, #feb8, #mar8, #apr8, #may8 {
+    #img8, #feb8, #mar8, #apr8, #may8, #jun8 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 8;
@@ -859,7 +925,7 @@ div {
         justify-content: center;
         align-items: center;  }
     
-    #img9, #feb9, #mar9, #apr9, #may9 {
+    #img9, #feb9, #mar9, #apr9, #may9, #jun9 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 9;
@@ -870,7 +936,7 @@ div {
         display: flex;
         justify-content: center;
         align-items: center;    }
-     #feb10, #mar10, #apr10, #may10 {
+     #feb10, #mar10, #apr10, #may10, #jun10 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 10;
@@ -881,7 +947,7 @@ div {
         display: flex;
         justify-content: center;
         align-items: center;    }
-    #apr11, #may11 {
+    #apr11, #may11, #jun11 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 11;
@@ -892,7 +958,127 @@ div {
         display: flex;
         justify-content: center;
         align-items: center;   }
-    
+    #jun12 {
+        object-fit: cover;
+        grid-column: 1;
+        grid-row: 12;
+        border-radius: 20px;
+        margin: 0 auto;
+        width: 500px;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;   }
+    #jun13 {
+        object-fit: cover;
+        grid-column: 1;
+        grid-row: 13;
+        border-radius: 20px;
+        margin: 0 auto;
+        width: 500px;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;   }
+    #jun14 {    
+        object-fit: cover;
+        grid-column: 1;
+        grid-row: 14;
+        border-radius: 20px;
+        margin: 0 auto;
+        width: 500px;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;   }
+    #jun15 {
+        object-fit: cover;
+        grid-column: 1;
+        grid-row: 15;
+        border-radius: 20px;
+        margin: 0 auto;
+        width: 500px;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;   }
+    #jun16 {
+        object-fit: cover;
+        grid-column: 1;
+        grid-row: 16;
+        border-radius: 20px;
+        margin: 0 auto;
+        width: 500px;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;   }
+    #jun17 {
+        object-fit: cover;
+        grid-column: 1;
+        grid-row: 17;
+        border-radius: 20px;
+        margin: 0 auto;
+        width: 500px;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;   }
+    #jun18 {
+        object-fit: cover;
+        grid-column: 1;
+        grid-row: 18;
+        border-radius: 20px;
+        margin: 0 auto;
+        width: 500px;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;   }
+    #jun19 {
+        object-fit: cover;
+        grid-column: 1;
+        grid-row: 19;
+        border-radius: 20px;
+        margin: 0 auto;
+        width: 500px;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;   }
+    #jun20 {
+        object-fit: cover;
+        grid-column: 1;
+        grid-row: 20;
+        border-radius: 20px;
+        margin: 0 auto;
+        width: 500px;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;   }
+    #jun21 {
+        object-fit: cover;
+        grid-column: 1;
+        grid-row: 21;
+        border-radius: 20px;
+        margin: 0 auto;
+        width: 500px;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;   }
+    #jun22 {
+        object-fit: cover;
+        grid-column: 1;
+        grid-row: 22;
+        border-radius: 20px;
+        margin: 0 auto;
+        width: 500px;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;   }
 }
 @media (max-width: 600px) {
     *{
@@ -1147,7 +1333,7 @@ div {
         overflow: hidden;
     }
 
-    .NOVNAILS, .DECNAILS, .JANNAILS, .FEBNAILS, .MARNAILS, .APRNAILS, .MAYNAILS {
+    .NOVNAILS, .DECNAILS, .JANNAILS, .FEBNAILS, .MARNAILS, .APRNAILS, .MAYNAILS, .JUNNAILS {
         display: grid;
         gap: 20px;
         grid-template-columns: 1fr;
@@ -1165,7 +1351,7 @@ div {
         margin-left: -5px;
     }
 
-    #rednailsmirror, #dec1, #img1, #feb1, #mar1, #apr1, #may1 {
+    #rednailsmirror, #dec1, #img1, #feb1, #mar1, #apr1, #may1, #jun1 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 1;
@@ -1179,7 +1365,7 @@ div {
         overflow: hidden;
     }
     
-    #coffinred, #dec2, #img2, #feb2, #mar2, #apr2, #may2 {
+    #coffinred, #dec2, #img2, #feb2, #mar2, #apr2, #may2, #jun2 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 2;
@@ -1193,7 +1379,7 @@ div {
         overflow: hidden;
     }
     
-    #ngina, #dec3, #img3, #feb3, #mar3, #apr3, #may3 {
+    #ngina, #dec3, #img3, #feb3, #mar3, #apr3, #may3, #jun3 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 3;
@@ -1207,7 +1393,7 @@ div {
         overflow: hidden;
     }
     
-    #autumnnails1, #dec4, #img4, #feb4, #mar4, #apr4, #may4 {
+    #autumnnails1, #dec4, #img4, #feb4, #mar4, #apr4, #may4, #jun4 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 4;
@@ -1221,7 +1407,7 @@ div {
         overflow: hidden;
     }
     
-    #dec5, #img5, #feb5, #mar5, #apr5, #may5 {
+    #dec5, #img5, #feb5, #mar5, #apr5, #may5, #jun5 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 5;
@@ -1235,7 +1421,7 @@ div {
         overflow: hidden;
     }
     
-    #dec6, #img6, #feb6, #mar6, #apr6, #may6 {
+    #dec6, #img6, #feb6, #mar6, #apr6, #may6, #jun6 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 6;
@@ -1249,7 +1435,7 @@ div {
         overflow: hidden;
     }
     
-    #dec7, #img7, #feb7, #mar7, #apr7, #may7 {
+    #dec7, #img7, #feb7, #mar7, #apr7, #may7, #jun7 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 7;
@@ -1263,7 +1449,7 @@ div {
         overflow: hidden;
     }
     
-    #img8, #feb8, #mar8, #apr8, #may8 {
+    #img8, #feb8, #mar8, #apr8, #may8, #jun8 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 8;
@@ -1277,7 +1463,7 @@ div {
         overflow: hidden;
     }
     
-    #img9, #feb9, #mar9, #apr9, #may9 {
+    #img9, #feb9, #mar9, #apr9, #may9, #jun9 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 9;
@@ -1290,7 +1476,7 @@ div {
         align-items: center;
         overflow: hidden;
     }
-    #feb10, #mar10, #apr10, #may10 {
+    #feb10, #mar10, #apr10, #may10, #jun10 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 10;
@@ -1303,10 +1489,153 @@ div {
         align-items: center;
         overflow: hidden;
     }
-    #apr11, #may11 {
+    #apr11, #may11, #jun11 {
         object-fit: cover;
         grid-column: 1;
         grid-row: 11;
+        border-radius: 20px;
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    #jun12 {
+        object-fit: cover;
+        grid-column: 1;
+        grid-row: 12;
+        border-radius: 20px;
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    #jun13 {
+        object-fit: cover;
+        grid-column: 1;
+        grid-row: 13;
+        border-radius: 20px;
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    #jun14 {
+        object-fit: cover;
+        grid-column: 1;
+        grid-row: 14;
+        border-radius: 20px;
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    #jun15 {
+        object-fit: cover;
+        grid-column: 1;
+        grid-row: 15;
+        border-radius: 20px;
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    #jun16 {
+        object-fit: cover;
+        grid-column: 1;
+        grid-row: 16;
+        border-radius: 20px;
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    #jun17 {
+        object-fit: cover;
+        grid-column: 1;
+        grid-row: 17;
+        border-radius: 20px;
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    #jun18 {
+        object-fit: cover;
+        grid-column: 1;
+        grid-row: 18;
+        border-radius: 20px;
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    #jun19 {
+        object-fit: cover;
+        grid-column: 1;
+        grid-row: 19;
+        border-radius: 20px;
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    #jun20 {
+        object-fit: cover;
+        grid-column: 1;
+        grid-row: 20;
+        border-radius: 20px;
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    #jun21 {
+        object-fit: cover;
+        grid-column: 1;
+        grid-row: 21;
+        border-radius: 20px;
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    #jun22 {
+        object-fit: cover;
+        grid-column: 1;
+        grid-row: 22;
         border-radius: 20px;
         margin: 0 auto;
         width: 300px;

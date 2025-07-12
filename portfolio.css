@@ -307,6 +307,28 @@ body {
     filter: brightness(0.5);
     /* Makes the image darker */
 }
+#may1 img {
+    width: 300px;
+    height: square;
+    position: absolute;
+    left: 190px;
+    top: 1930px;
+    rotate: 180deg;
+    z-index: 2;
+    filter: brightness(0.5);
+    /* Makes the image darker */
+}
+#jun1 img {
+    width: 300px;
+    height: square;
+    position: absolute;
+    left: 780px;
+    top: 1930px;
+    rotate: 180deg;
+    z-index: 2;
+    filter: brightness(0.5);
+    /* Makes the image darker */
+}
 @media (max-width: 1000px) {
     .grid {
         display: flex;
